@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en"  direction="rtl" style="direction: rtl;" >
+    <!-- begin::Head -->
+    <head>
+        <meta charset="utf-8" />
+
+        <title>	قالب مدیریتی
+			Metronic</title>
+        <meta name="description" content="Amcharts stock charts examples">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+        <!--begin::Web font -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+        <script>
+          WebFont.load({
+            google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+          });
+        </script>
+        <!--end::Web font -->
+
+        <!--begin::Global Theme Styles -->
+                    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css" />
+                    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css" />
+                <!--end::Global Theme Styles -->
+
+                    <!--begin::Page Vendors Styles -->
+                            <link href="https://www.amcharts.com/lib/3/plugins/export/export.css" rel="stylesheet" type="text/css" />
+                        <!--end::Page Vendors Styles -->
+
+
+
+        <link rel="shortcut icon" href="assets/demo/default/media/img/logo/favicon.ico" />
+    </head>
+    <!-- end::Head -->
+
+
+    <!-- begin::Body -->
+    <body  class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--fixed m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default"  >
+
+
+
+	<!-- begin:: Page -->
+	<div class="m-grid m-grid--hor m-grid--root m-page">
+
+
+		<!-- BEGIN: Header -->
+		<header id="m_header" class="m-grid__item    m-header "  m-minimize-offset="200" m-minimize-mobile-offset="200" >
+			<div class="m-container m-container--fluid m-container--full-height">
+				<div class="m-stack m-stack--ver m-stack--desktop">
+					<!-- BEGIN: Brand -->
+					<div class="m-stack__item m-brand  m-brand--skin-dark ">
+						<div class="m-stack m-stack--ver m-stack--general">
+							<div class="m-stack__item m-stack__item--middle m-brand__logo">
+								<a href="index.html" class="m-brand__logo-wrapper">
+									<img alt="" src="assets/demo/default/media/img/logo/logo_default_dark.png"/>
+								</a>
+							</div>
+							<div class="m-stack__item m-stack__item--middle m-brand__tools">
+
+								<!-- BEGIN: Left Aside Minimize Toggle -->
+								<a href="javascript:;" id="m_aside_left_minimize_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-desktop-inline-block  ">
+									<span></span>
+								</a>
+								<!-- END -->
+
+								<!-- BEGIN: Responsive Aside Left Menu Toggler -->
+								<a href="javascript:;" id="m_aside_left_offcanvas_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-tablet-and-mobile-inline-block">
+									<span></span>
+								</a>
+								<!-- END -->
+
+
+
+								<!-- BEGIN: Responsive Header Menu Toggler -->
+								<a id="m_aside_header_menu_mobile_toggle" href="javascript:;" class="m-brand__icon m-brand__toggler m--visible-tablet-and-mobile-inline-block">
+									<span></span>
+								</a>
+								<!-- END -->
+
+
+								<!-- BEGIN: Topbar Toggler -->
+								<a id="m_aside_header_topbar_mobile_toggle" href="javascript:;" class="m-brand__icon m--visible-tablet-and-mobile-inline-block">
+									<i class="flaticon-more"></i>
+								</a>
+								<!-- BEGIN: Topbar Toggler -->
+							</div>
+						</div>
+					</div>
+					<!-- END: Brand -->
+					<div class="m-stack__item m-stack__item--fluid m-header-head" id="m_header_nav">
+						<!-- BEGIN: Horizontal Menu -->
+						<button class="m-aside-header-menu-mobile-close  m-aside-header-menu-mobile-close--skin-dark " id="m_aside_header_menu_mobile_close_btn"><i class="la la-close"></i></button>
+						<div id="m_header_menu" class="m-header-menu m-aside-header-menu-mobile m-aside-header-menu-mobile--offcanvas  m-header-menu--skin-light m-header-menu--submenu-skin-light m-aside-header-menu-mobile--skin-dark m-aside-header-menu-mobile--submenu-skin-dark ">
+							<ul class="m-menu__nav  m-menu__nav--submenu-arrow ">
+								<li class="m-menu__item  m-menu__item--submenu m-menu__item--rel" m-menu-submenu-toggle="click" m-menu-link-redirect="1" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle" title="Non functional dummy link"><i class="m-menu__link-icon flaticon-add"></i><span class="m-menu__link-text">عملیات ها</span><i class="m-menu__hor-arrow la la-angle-down"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+									<div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--left"><span class="m-menu__arrow m-menu__arrow--adjust"></span>
+										<ul class="m-menu__subnav">
+											<li class="m-menu__item " aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-file"></i><span class="m-menu__link-text">ساخت پست جدید</span></a></li>
+											<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-diagram"></i><span class="m-menu__link-title">  <span class="m-menu__link-wrap">      <span class="m-menu__link-text">ساخت گزارش</span>      <span class="m-menu__link-badge"><span class="m-badge m-badge--success">2</span></span>  </span></span></a></li>
+											<li class="m-menu__item  m-menu__item--submenu" m-menu-submenu-toggle="hover" m-menu-link-redirect="1" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle" title="Non functional dummy link"><i class="m-menu__link-icon flaticon-business"></i><span class="m-menu__link-text">مدیریت سفارشات </span><i class="m-menu__hor-arrow la la-angle-left"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+												<div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--right"><span class="m-menu__arrow "></span>
+													<ul class="m-menu__subnav">
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">آخرین سفارشات</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">سفارشات در انتظار</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">سفارشات در حال بررسی</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">سفارشات تحویل داده شده</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">پرداخت ها</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">مشتریان</span></a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="m-menu__item  m-menu__item--submenu" m-menu-submenu-toggle="hover" m-menu-link-redirect="1" aria-haspopup="true"><a href="index.html#" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-chat-1"></i><span class="m-menu__link-text">نظرات مشتریان</span><i class="m-menu__hor-arrow la la-angle-left"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+												<div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--right"><span class="m-menu__arrow "></span>
+													<ul class="m-menu__subnav">
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">نظرات مشتریان</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">نظرات تامین کننده ها</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">نظرات بررسی شده</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">نظرات در انتظار تایید</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">نظرات رد شده</span></a></li>
+													</ul>
+												</div>
+											</li>
+											<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-users"></i><span class="m-menu__link-text">کاربران </span></a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="m-menu__item  m-menu__item--submenu m-menu__item--rel" m-menu-submenu-toggle="click" m-menu-link-redirect="1" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle" title="Non functional dummy link"><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">گزارشات</span><i class="m-menu__hor-arrow la la-angle-down"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+									<div class="m-menu__submenu  m-menu__submenu--fixed m-menu__submenu--left" style="width:1000px"><span class="m-menu__arrow m-menu__arrow--adjust"></span>
+										<div class="m-menu__subnav">
+											<ul class="m-menu__content">
+												<li class="m-menu__item">
+													<h3 class="m-menu__heading m-menu__toggle"><span class="m-menu__link-text"> گزارشات مالی</span><i class="m-menu__ver-arrow la la-angle-right"></i></h3>
+													<ul class="m-menu__inner">
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-map"></i><span class="m-menu__link-text">گزارشات سالانه</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-user"></i><span class="m-menu__link-text">گزارشات ماهانه</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-clipboard"></i><span class="m-menu__link-text">گزارشات هفتگی</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-graphic-2"></i><span class="m-menu__link-text">گزارش درآمدها</span></a></li>
+													</ul>
+												</li>
+												<li class="m-menu__item">
+													<h3 class="m-menu__heading m-menu__toggle"><span class="m-menu__link-text">گزارش پروژه ها</span><i class="m-menu__ver-arrow la la-angle-right"></i></h3>
+													<ul class="m-menu__inner">
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">پروژه شرکت فولاد</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">پروژه شرکت نفت</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">پروژه شرکت اکسین اروند</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">پروژه شرکت آرمان فدک ایرانیان</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">پروژه شرکت مارون کاران</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">شرکت کار پردازش گر پیشتازان</span></a></li>
+													</ul>
+												</li>
+												<li class="m-menu__item">
+													<h3 class="m-menu__heading m-menu__toggle"><span class="m-menu__link-text">مستندات گزارش ها</span><i class="m-menu__ver-arrow la la-angle-right"></i></h3>
+													<ul class="m-menu__inner">
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پروژه های در دست اجرا</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پروژه های سفارشی</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پروژه های آینده</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پروژه های در مناقصه</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پروژه های انجام شده</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پروژه های شکست خورده</span></a></li>
+													</ul>
+												</li>
+												<li class="m-menu__item">
+													<h3 class="m-menu__heading m-menu__toggle"><span class="m-menu__link-text">گزارش برنامه ها</span><i class="m-menu__ver-arrow la la-angle-right"></i></h3>
+													<ul class="m-menu__inner">
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">گزارش تنظیمات</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">منابع</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">گزارش تنظیمات</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">مبادله ها</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">گزارش جریان ها</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><span class="m-menu__link-text">گزارش لاگ ها</span></a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="m-menu__item  m-menu__item--submenu m-menu__item--rel" m-menu-submenu-toggle="click" m-menu-link-redirect="1" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle" title="Non functional dummy link"><i class="m-menu__link-icon flaticon-paper-plane"></i><span class="m-menu__link-title">  <span class="m-menu__link-wrap">      <span class="m-menu__link-text">برنامه ها</span>      <span class="m-menu__link-badge"><span class="m-badge m-badge--brand m-badge--wide">جدید</span></span>  </span></span><i class="m-menu__hor-arrow la la-angle-down"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+									<div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--left"><span class="m-menu__arrow m-menu__arrow--adjust"></span>
+										<ul class="m-menu__subnav">
+											<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-business"></i><span class="m-menu__link-text">فروشگاه اینترنتی</span></a></li>
+											<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-map"></i><span class="m-menu__link-text">بازاریابی</span></a></li>
+											<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-graphic-2"></i><span class="m-menu__link-title">  <span class="m-menu__link-wrap">      <span class="m-menu__link-text">کمپین ها</span>      <span class="m-menu__link-badge"><span class="m-badge m-badge--success">3</span></span>  </span></span></a></li>
+											<li class="m-menu__item  m-menu__item--submenu" m-menu-submenu-toggle="hover" m-menu-link-redirect="1" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle" title="Non functional dummy link"><i class="m-menu__link-icon flaticon-infinity"></i><span class="m-menu__link-text">مدیریت ابری</span><i class="m-menu__hor-arrow la la-angle-left"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+												<div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--right"><span class="m-menu__arrow "></span>
+													<ul class="m-menu__subnav">
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-add"></i><span class="m-menu__link-title">  <span class="m-menu__link-wrap">      <span class="m-menu__link-text">آپلود فایل</span>      <span class="m-menu__link-badge"><span class="m-badge m-badge--danger">3</span></span>  </span></span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-signs-1"></i><span class="m-menu__link-text">خصوصیات فایل ها</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-folder"></i><span class="m-menu__link-text">پوشه ها</span></a></li>
+														<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="actions.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-cogwheel-2"></i><span class="m-menu__link-text">تنظیمات سیستم</span></a></li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div><!-- END: Horizontal Menu -->								<!-- BEGIN: Topbar -->
+						<div id="m_header_topbar" class="m-topbar  m-stack m-stack--ver m-stack--general m-stack--fluid">
+
+
+							<div class="m-stack__item m-topbar__nav-wrapper">
+								<ul class="m-topbar__nav m-nav m-nav--inline">
+									<li class="m-nav__item m-dropdown m-dropdown--large m-dropdown--arrow m-dropdown--align-center m-dropdown--mobile-full-width m-dropdown--skin-light	m-list-search m-list-search--skin-light"
+										m-dropdown-toggle="click" id="m_quicksearch" m-quicksearch-mode="dropdown" m-dropdown-persistent="1">
+
+										<a href="index.html#" class="m-nav__link m-dropdown__toggle">
+											<span class="m-nav__link-icon"><i class="flaticon-search-1"></i></span>
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--center"></span>
+											<div class="m-dropdown__inner ">
+												<div class="m-dropdown__header">
+													<form  class="m-list-search__form">
+														<div class="m-list-search__form-wrapper">
+						<span class="m-list-search__form-input-wrapper">
+							<input id="m_quicksearch_input" autocomplete="off" type="text" name="q" class="m-list-search__form-input" value="" placeholder="جستحو....">
+						</span>
+						<span class="m-list-search__form-icon-close" id="m_quicksearch_close">
+							<i class="la la-remove"></i>
+						</span>
+														</div>
+													</form>
+												</div>
+												<div class="m-dropdown__body">
+													<div class="m-dropdown__scrollable m-scrollable" data-scrollable="true" data-height="300" data-mobile-height="200">
+														<div class="m-dropdown__content">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="m-nav__item m-topbar__notifications m-topbar__notifications--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-center 	m-dropdown--mobile-full-width" m-dropdown-toggle="click" m-dropdown-persistent="1">
+										<a href="index.html#" class="m-nav__link m-dropdown__toggle" id="m_topbar_notification_icon">
+											<span class="m-nav__link-badge m-badge m-badge--dot m-badge--dot-small m-badge--danger"></span>
+											<span class="m-nav__link-icon"><i class="flaticon-alarm"></i></span>
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--center"></span>
+											<div class="m-dropdown__inner">
+												<div class="m-dropdown__header m--align-center" style="background: url(./assets/app/media/img/misc/notification_bg.jpg); background-size: cover;">
+													<span class="m-dropdown__header-title">9 مورد جدید  </span>
+													<span class="m-dropdown__header-subtitle">اطلاعیه ها</span>
+												</div>
+												<div class="m-dropdown__body">
+													<div class="m-dropdown__content">
+														<ul class="nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand" role="tablist">
+															<li class="nav-item m-tabs__item">
+																<a class="nav-link m-tabs__link active" data-toggle="tab" href="index.html#topbar_notifications_notifications" role="tab">
+																	هشدارها
+																</a>
+															</li>
+															<li class="nav-item m-tabs__item">
+																<a class="nav-link m-tabs__link" data-toggle="tab" href="index.html#topbar_notifications_events" role="tab">رویدادها</a>
+															</li>
+															<li class="nav-item m-tabs__item">
+																<a class="nav-link m-tabs__link" data-toggle="tab" href="index.html#topbar_notifications_logs" role="tab">لاگ ها</a>
+															</li>
+														</ul>
+														<div class="tab-content">
+															<div class="tab-pane active" id="topbar_notifications_notifications" role="tabpanel">
+																<div class="m-scrollable" data-scrollable="true" data-height="250" data-mobile-height="200">
+																	<div class="m-list-timeline m-list-timeline--skin-light">
+																		<div class="m-list-timeline__items">
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge -m-list-timeline__badge--state-success"></span>
+																				<span class="m-list-timeline__text">12 کاربر جدید ثبت نام کرده اند</span>
+																				<span class="m-list-timeline__time">هم اکنون</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">خاموش شدن سیستم<span class="m-badge m-badge--success m-badge--wide">در انتظار</span></span>
+																				<span class="m-list-timeline__time">14 دقیقه</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">فاکتور جدید</span>
+																				<span class="m-list-timeline__time">20 دقیقه</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">استفاده بیش از حد از دیتابیس 80% <span class="m-badge m-badge--info m-badge--wide">حل شده</span></span>
+																				<span class="m-list-timeline__time">1 ساعت</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">خطای سیست - <a href="index.html#" class="m-link">بررسی</a></span>
+																				<span class="m-list-timeline__time">2 ساعت</span>
+																			</div>
+																			<div class="m-list-timeline__item m-list-timeline__item--read">
+																				<span class="m-list-timeline__badge"></span>
+																				<span href="" class="m-list-timeline__text">سفارش جدید <span class="m-badge m-badge--danger m-badge--wide">فوری</span></span>
+																				<span class="m-list-timeline__time">7 ساعت</span>
+																			</div>
+																			<div class="m-list-timeline__item m-list-timeline__item--read">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">فشار به سرور</span>
+																				<span class="m-list-timeline__time">3 ساعت</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">زمان بالا بودن سرور</span>
+																				<span class="m-list-timeline__time">5 ساعت</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane" id="topbar_notifications_events" role="tabpanel">
+																<div class="m-scrollable" data-scrollable="true" data-height="250" data-mobile-height="200">
+																	<div class="m-list-timeline m-list-timeline--skin-light">
+																		<div class="m-list-timeline__items">
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-success"></span>
+																				<a href="index.html" class="m-list-timeline__text">سفارش جدید</a>
+																				<span class="m-list-timeline__time">هم اکنون</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-danger"></span>
+																				<a href="index.html" class="m-list-timeline__text">فاکتور جدید</a>
+																				<span class="m-list-timeline__time">20 دقیقه</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-success"></span>
+																				<a href="index.html" class="m-list-timeline__text">بالا بودن سرور</a>
+																				<span class="m-list-timeline__time">5 ساعت</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-info"></span>
+																				<a href="index.html" class="m-list-timeline__text">سفارش جدید</a>
+																				<span class="m-list-timeline__time">7 ساعت</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-info"></span>
+																				<a href="index.html" class="m-list-timeline__text">خاموش بودن سیستم</a>
+																				<span class="m-list-timeline__time">11 دقیقه</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-info"></span>
+																				<a href="index.html" class="m-list-timeline__text">یر فعال بودن سرور</a>
+																				<span class="m-list-timeline__time">3 ساعت</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane" id="topbar_notifications_logs" role="tabpanel">
+																<div class="m-stack m-stack--ver m-stack--general" style="min-height: 180px;">
+																	<div class="m-stack__item m-stack__item--center m-stack__item--middle">
+																		<span class="">بدون لاگ جدید</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="m-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light"  m-dropdown-toggle="click">
+										<a href="index.html#" class="m-nav__link m-dropdown__toggle">
+											<span class="m-nav__link-badge m-badge m-badge--dot m-badge--info m--hide"></span>
+											<span class="m-nav__link-icon"><i class="flaticon-share"></i></span>
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+											<div class="m-dropdown__inner">
+												<div class="m-dropdown__header m--align-center" style="background: url(./assets/app/media/img/misc/quick_actions_bg.jpg); background-size: cover;">
+													<span class="m-dropdown__header-title">عملیات های سریع</span>
+													<span class="m-dropdown__header-subtitle">میانبر</span>
+												</div>
+												<div class="m-dropdown__body m-dropdown__body--paddingless">
+													<div class="m-dropdown__content">
+														<div class="data" data="false" data-height="380" data-mobile-height="200">
+															<div class="m-nav-grid m-nav-grid--skin-light">
+																<div class="m-nav-grid__row">
+																	<a href="index.html#" class="m-nav-grid__item">
+																		<i class="m-nav-grid__icon flaticon-file"></i>
+																		<span class="m-nav-grid__text">ساخت گزارش</span>
+																	</a>
+																	<a href="index.html#" class="m-nav-grid__item">
+																		<i class="m-nav-grid__icon flaticon-time"></i>
+																		<span class="m-nav-grid__text">افزودن رویداد جدید</span>
+																	</a>
+																</div>
+																<div class="m-nav-grid__row">
+																	<a href="index.html#" class="m-nav-grid__item">
+																		<i class="m-nav-grid__icon flaticon-folder"></i>
+																		<span class="m-nav-grid__text">ایجاد وظبفه جدید</span>
+																	</a>
+																	<a href="index.html#" class="m-nav-grid__item">
+																		<i class="m-nav-grid__icon flaticon-clipboard"></i>
+																		<span class="m-nav-grid__text">وظایف تکمیل شده</span>
+																	</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="m-nav__item m-topbar__languages m-dropdown m-dropdown--small m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--mobile-full-width"  m-dropdown-toggle="click">
+										<a href="index.html#" class="m-nav__link m-dropdown__toggle">
+		<span class="m-nav__link-text">
+			<img class="m-topbar__language-selected-img" src="assets/app/media/img/flags/020-flag.svg">
+		</span>
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+											<div class="m-dropdown__inner">
+												<div class="m-dropdown__header m--align-center" style="background: url(./assets/app/media/img/misc/quick_actions_bg.jpg); background-size: cover;">
+													<span class="m-dropdown__header-subtitle">انتخاب زبان</span>
+												</div>
+												<div class="m-dropdown__body">
+													<div class="m-dropdown__content">
+														<ul class="m-nav m-nav--skin-light">
+															<li class="m-nav__item m-nav__item--active">
+																<a href="index.html#" class="m-nav__link m-nav__link--active">
+																	<span class="m-nav__link-icon"><img class="m-topbar__language-img" src="assets/app/media/img/flags/020-flag.svg"></span>
+																	<span class="m-nav__link-title m-topbar__language-text m-nav__link-text">آمریکایی</span>
+																</a>
+															</li>
+															<li class="m-nav__item">
+																<a href="index.html#" class="m-nav__link">
+																	<span class="m-nav__link-icon"><img class="m-topbar__language-img" src="assets/app/media/img/flags/015-china.svg"></span>
+																	<span class="m-nav__link-title m-topbar__language-text m-nav__link-text">چینی</span>
+																</a>
+															</li>
+															<li class="m-nav__item">
+																<a href="index.html#" class="m-nav__link">
+																	<span class="m-nav__link-icon"><img class="m-topbar__language-img" src="assets/app/media/img/flags/016-spain.svg"></span>
+																	<span class="m-nav__link-title m-topbar__language-text m-nav__link-text">اسپانیایی</span>
+																</a>
+															</li>
+															<li class="m-nav__item">
+																<a href="index.html#" class="m-nav__link">
+																	<span class="m-nav__link-icon"><img class="m-topbar__language-img" src="assets/app/media/img/flags/014-japan.svg"></span>
+																	<span class="m-nav__link-title m-topbar__language-text m-nav__link-text">ژاپنی</span>
+																</a>
+															</li>
+															<li class="m-nav__item">
+																<a href="index.html#" class="m-nav__link">
+																	<span class="m-nav__link-icon"><img class="m-topbar__language-img" src="assets/app/media/img/flags/017-germany.svg"></span>
+																	<span class="m-nav__link-title m-topbar__language-text m-nav__link-text">آلمانی</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="m-nav__item m-topbar__user-profile m-topbar__user-profile--img  m-dropdown m-dropdown--medium m-dropdown--arrow m-dropdown--header-bg-fill m-dropdown--align-right m-dropdown--mobile-full-width m-dropdown--skin-light" m-dropdown-toggle="click">
+										<a href="index.html#" class="m-nav__link m-dropdown__toggle">
+	<span class="m-topbar__userpic">
+		<img src="assets/app/media/img/users/user4.jpg" class="m--img-rounded m--marginless" alt=""/>
+	</span>
+											<span class="m-topbar__username m--hide">نام</span>
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+											<div class="m-dropdown__inner">
+												<div class="m-dropdown__header m--align-center" style="background: url(./assets/app/media/img/misc/user_profile_bg.jpg); background-size: cover;">
+													<div class="m-card-user m-card-user--skin-dark">
+														<div class="m-card-user__pic">
+															<img src="assets/app/media/img/users/user4.jpg" class="m--img-rounded m--marginless" alt=""/>
+															<!--
+                            <span class="m-type m-type--lg m--bg-danger"><span class="m--font-light">S<span><span>
+                            -->
+														</div>
+														<div class="m-card-user__details">
+															<span class="m-card-user__name m--font-weight-500">محسن برومند</span>
+															<a href="index.html" class="m-card-user__email m--font-weight-300 m-link">mark.andre@gmail.com</a>
+														</div>
+													</div>
+												</div>
+												<div class="m-dropdown__body">
+													<div class="m-dropdown__content">
+														<ul class="m-nav m-nav--skin-light">
+															<li class="m-nav__section m--hide">
+																<span class="m-nav__section-text">سکشن</span>
+															</li>
+															<li class="m-nav__item">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-profile-1"></i>
+								<span class="m-nav__link-title">
+									<span class="m-nav__link-wrap">
+										<span class="m-nav__link-text">پروفایل</span>
+										<span class="m-nav__link-badge"><span class="m-badge m-badge--success">2</span></span>
+									</span>
+								</span>
+																</a>
+															</li>
+															<li class="m-nav__item">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-share"></i>
+																	<span class="m-nav__link-text">فعالیت ها</span>
+																</a>
+															</li>
+															<li class="m-nav__item">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-chat-1"></i>
+																	<span class="m-nav__link-text">پیام ها</span>
+																</a>
+															</li>
+															<li class="m-nav__separator m-nav__separator--fit">
+															</li>
+															<li class="m-nav__item">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-info"></i>
+																	<span class="m-nav__link-text">سوالات متداول</span>
+																</a>
+															</li>
+															<li class="m-nav__item">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-lifebuoy"></i>
+																	<span class="m-nav__link-text">پشتیبانی</span>
+																</a>
+															</li>
+															<li class="m-nav__separator m-nav__separator--fit">
+															</li>
+															<li class="m-nav__item">
+																<a href="login-1.html" class="btn m-btn--pill    btn-secondary m-btn m-btn--custom m-btn--label-brand m-btn--bolder">خروچ</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+
+									<li id="m_quick_sidebar_toggle" class="m-nav__item">
+										<a href="index.html#" class="m-nav__link m-dropdown__toggle">
+											<span class="m-nav__link-icon"><i class="flaticon-grid-menu"></i></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- END: Topbar -->			</div>
+				</div>
+			</div>
+		</header>
+		<!-- END: Header -->
+		<!-- begin::Body -->
+		<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+
+			<!-- BEGIN: Left Aside -->
+			<button class="m-aside-left-close  m-aside-left-close--skin-dark " id="m_aside_left_close_btn"><i class="la la-close"></i></button>
+
+			<div id="m_aside_left" class="m-grid__item	m-aside-left  m-aside-left--skin-dark ">
+				<!-- BEGIN: Aside Menu -->
+				<div id="m_ver_menu" class="m-aside-menu  m-aside-menu--skin-dark m-aside-menu--submenu-skin-dark " m-menu-vertical="1" m-menu-scrollable="1" m-menu-dropdown-timeout="500" style="position: relative;">
+					<ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+						<li class="m-menu__item " aria-haspopup="true"><a href="index.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-title">  <span class="m-menu__link-wrap">      <span class="m-menu__link-text">پیشخوان</span>      <span class="m-menu__link-badge"><span class="m-badge m-badge--danger">2</span></span>  </span></span></a></li>
+						<li class="m-menu__section ">
+							<h4 class="m-menu__section-text">
+								امکانات
+							</h4>
+							<i class="m-menu__section-icon flaticon-more-v2"></i>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-layers"></i><span class="m-menu__link-text">امکانات پایه</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text"> پایه</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="state.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">حالت های رنگی</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="typography.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تایپو گرافی</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="stack.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">استک بندی</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="tables.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">جداول</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="progress.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">درصد پیشرفت</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="modal.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">مودال</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="alerts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">هشدارها</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="popover.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پاپ اور</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="tooltip.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تولتیپ</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="blockui.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">بلاک</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="spinners.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اسپینر</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="scrollable.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اسکرول</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="dropdown.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">دراپ دان</span></a></li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تب ها</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تب های بوت استرپ</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="line.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تب های خط</span></a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="accordions.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">آکاردئون ها</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="navs.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">منوها</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="lists.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">لیست ها</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="treeview.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نمایش درختی</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-notify.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> هشدارهای بوت استرپ</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="toastr.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اطلاعیه های Toastr</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="sweetalert2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">  اطلاعیه های Sweet</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-share"></i><span class="m-menu__link-text">آیکون ها</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item " aria-haspopup="true"><a href="flaticon.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فلت ایکون</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="fontawesome.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">آیکون Fontawesome 5</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="lineawesome.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">آیکون Lineawesome</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="socicons.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ایکون Socicons</span></a></li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
+							<a href="javascript:;" class="m-menu__link m-menu__toggle">
+								<i class="m-menu__link-icon flaticon-web"></i>
+								<span class="m-menu__link-text">دکمه ها</span>
+								<i class="m-menu__ver-arrow la la-angle-right"></i>
+							</a>
+							<div class="m-menu__submenu ">
+								<span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true">
+                            <span class="m-menu__link">
+												<span class="m-menu__link-text">
+													دکمه ها
+												</span>
+                            </span>
+									</li>
+
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">دکمه های پایه</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="default.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">استایل پیش فرض</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="square.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">استایل مربع </span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="pill.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">استایل گرد</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="air.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> استایل سایه</span></a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="group.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">دکمه های گروهی</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="dropdown2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">دکمه های دراپ دان</span></a></li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">دکمه های ایکون دار</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="lineawesome2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ایکون های Lineawesome</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="fontawesome2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ایکون های Fontawesome</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="flaticon2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ایکون های Flaticon</span></a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-1"></i><span class="m-menu__link-text">پورتلیت</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Portlets</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="base.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پورتلیت های پایه</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="advanced.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> پورتلیت های پیشرفته</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="creative.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پورتلیت های خلاق </span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="tabbed.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پورتلیت های تب دار </span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="draggable.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> پورتلیت های با قابلیت جا به جای</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="tools.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> ابزاری های پورتلیت</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="sticky.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> پورتلیت های با هدر ثابت</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-6"></i><span class="m-menu__link-text">خط زمان </span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">خط زمان</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="timeline-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">خط زمان 1</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="timeline-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">خط زمان 2</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-network"></i><span class="m-menu__link-text">ابزارک ها</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">ابزارک ها</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="general.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ابزارک های عمومی</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="chart.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ابزارک های نمودار</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-calendar"></i><span class="m-menu__link-text">تقویم</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">تقویم</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="basic.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تقویم پایه</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="list-view.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> لیست نمایشی</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="google.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تقویم گوگل</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="external-events.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ررویدادهای خارجی</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="background-events.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">سابقه رویدادها</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu m-menu__item--open m-menu__item--expanded" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-diagram"></i><span class="m-menu__link-text">نمودارها</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">نمودارها</span></span>
+									</li>
+									<li class="m-menu__item  m-menu__item--submenu m-menu__item--open m-menu__item--expanded" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نمودار ها am</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="charts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نمودار Charts</span></a></li>
+												<li class="m-menu__item m-menu__item--active" aria-haspopup="true"><a href="stock-charts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نمودار موجودی</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="maps.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نمودار نقشه</span></a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="flotcharts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نمودار Flot</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="google-charts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نمودار Google</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="morris-charts.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نمودار Morris</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-placeholder-1"></i><span class="m-menu__link-text">نقشه ها</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">نقشه ها</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="google-maps.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">گوگل مپ</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="jqvmap.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">نقشه JQV</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-signs-2"></i><span class="m-menu__link-text">کاربردها</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">کاربردها</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="session-timeout.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">شمارش معکوس منقضی شدن سشن</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="idle-timer.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تایمر بیکار</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__section ">
+							<h4 class="m-menu__section-text">سایر امکانات</h4>
+							<i class="m-menu__section-icon flaticon-more-v2"></i>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-7"></i><span class="m-menu__link-text">اجزای فرم</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">اجزای فرم</span></span>
+									</li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اجزای فرم</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="base2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پایه Inputs</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="checkbox-radio.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">چک باکس و رادیو</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="input-group.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Input گروهی </span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="switch.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">سویچ</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="option.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">گزینه ها </span></a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ابزارک های فرم</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-datepicker.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">انتخاب تاریخ</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-datetimepicker.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">انتخاب تاریخ و ساعت</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-timepicker.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> انتخاب ساعت</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-daterangepicker.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">انتخاب بین دو تاریخ</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-touchspin.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> تاچ اسپین</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-maxlength.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">حداکثر طول</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-switch.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">سویچ</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-multipleselectsplitter.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Select چند انتخابی</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-select.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> Select بوت استرپ</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="select2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Select 2</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="typeahead.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Typeahead فرم</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="nouislider.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اسلایدر noUi</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="form-repeater.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فرم های تکرار شونده</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="ion-range-slider.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اسلایدر Ion  </span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="input-mask.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Input ماسک</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="summernote.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ادیتور WYSIWYG </span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="bootstrap-markdown.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> ادیتور Markdown</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="autosize.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">تغییر سایز خودکار</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="clipboard.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">کلیپ بورد</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="dropzone.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">دراپ زون</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="recaptcha.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> گوگل ریکپچا</span></a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> طرح بندی فرم</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="default-forms.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فرم های پیش فرض</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="multi-column-forms.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ففرم های چند ستونه</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="action-bars.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> اکشن بار پایه</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="sticky-forms.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اکشن بار ثابت</span></a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اعتبار سنجی فرم ها</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="states.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">وضعیت اعتبارسنجی</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="form-controls.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">اجزای فرم ها</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="form-widgets.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ابزارک های فرم</span></a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-8"></i><span class="m-menu__link-text">فرم های چند مرحله ای</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item " aria-haspopup="true"><a href="wizard-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فرم 1</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="wizard-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فرم 2</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="wizard-3.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فرم 3</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="wizard-4.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فرم 4</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="wizard-5.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> فرم 5</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-tabs"></i><span class="m-menu__link-text">جدول داده های مترونیک</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">جدول داده ها</span></span>
+									</li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">پایه</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a href="data-local.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">داده های محلی</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="data-json.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">داده JSON</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="data-ajax.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">داده Ajax</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="html-table.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">جدول HTML</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="record-selection.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">انتخاب رکورد</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="local-sort.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">مرتب سازی</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="row-details.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">جزییات سطرها</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="column-rendering.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">رندرینگ ستون</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="column-width.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">عرض ستون</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="responsive-columns.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ستون های ریسپانسیو</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a href="translation.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">ترجمه ها</span></a></li>
+											</ul>
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__section ">
+							<h4 class="m-menu__section-text">ابزار</h4>
+							<i class="m-menu__section-icon flaticon-more-v2"></i>
+						</li>
+						<li class="m-menu__item " aria-haspopup="true"><a href="page-builder.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-settings"></i><span class="m-menu__link-text">صفحه بندی</span></a></li>
+						<li class="m-menu__section ">
+							<h4 class="m-menu__section-text">صفحات دیگر</h4>
+							<i class="m-menu__section-icon flaticon-more-v2"></i>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-interface-9"></i><span class="m-menu__link-text">جداول قیمت</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">جداول قیمت</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="pricing-table-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">جدول قیمت 1</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="pricing-table-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">جدول قیمت 2</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="pricing-table-3.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">جدول قیمت 3</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="pricing-table-4.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">جدول قیمت 4</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-piggy-bank"></i><span class="m-menu__link-text">فاکتورها</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">Invoices</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="invoice-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فاکتور 1</span></a></li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="invoice-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">فاکتور 2</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-exclamation"></i><span class="m-menu__link-text">سوالات متداول </span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">سوالات متداول</span></span>
+									</li>
+									<li class="m-menu__item " aria-haspopup="true"><a href="faq-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">سوالات متداول 1</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-suitcase"></i><span class="m-menu__link-text">صفحه های سفارشی</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+							<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+								<ul class="m-menu__subnav">
+									<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__link-text">صفحه های سفارشی</span></span>
+									</li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">صفحه لاگین</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="login-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">لاگین 1</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="login-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">لاگین 2</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="login-3.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">لاگین 3</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="login-4.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">لاگین 4</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="login-5.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">لاگین 5</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="login-6.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">لاگین 6</span></a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">صفحه  404</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
+										<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="error-1.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text"> طرح 1</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="error-2.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">طرح 2</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="error-3.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">طرح 3 </span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="error-4.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">طرح 4</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="error-5.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">طرح 5</span></a></li>
+												<li class="m-menu__item " aria-haspopup="true"><a target="_blank" href="error-6.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">طرح 6</span></a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- END: Aside Menu -->
+			</div><!-- END: Left Aside -->
+			<div class="m-grid__item m-grid__item--fluid m-wrapper">
+
+				<!-- BEGIN: Subheader -->
+				<div class="m-subheader ">
+					<div class="d-flex align-items-center">
+						<div class="mr-auto">
+							<h3 class="m-subheader__title m-subheader__title--separator">
+								نمودار موجودی
+							</h3>
+							<ul class="m-subheader__breadcrumbs m-nav m-nav--inline">
+								<li class="m-nav__item m-nav__item--home">
+									<a href="#" class="m-nav__link m-nav__link--icon">
+										<i class="m-nav__link-icon la la-home"></i>
+									</a>
+								</li>
+								<li class="m-nav__separator">
+									-
+								</li>
+								<li class="m-nav__item">
+									<a href="" class="m-nav__link">
+											<span class="m-nav__link-text">
+												صفحه اصلی
+											</span>
+									</a>
+								</li>
+								<li class="m-nav__separator">
+									-
+								</li>
+								<li class="m-nav__item">
+									<a href="" class="m-nav__link">
+											<span class="m-nav__link-text">
+												صفحه داخلی یک
+											</span>
+									</a>
+								</li>
+								<li class="m-nav__separator">
+									-
+								</li>
+								<li class="m-nav__item">
+									<a href="" class="m-nav__link">
+											<span class="m-nav__link-text">
+												صفحه داخلی دو
+											</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<div class="m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push" m-dropdown-toggle="hover" aria-expanded="true">
+								<a href="#" class="m-portlet__nav-link btn btn-lg btn-secondary  m-btn m-btn--outline-2x m-btn--air m-btn--icon m-btn--icon-only m-btn--pill  m-dropdown__toggle">
+									<i class="la la-plus m--hide"></i>
+									<i class="la la-ellipsis-h"></i>
+								</a>
+								<div class="m-dropdown__wrapper">
+									<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+									<div class="m-dropdown__inner">
+										<div class="m-dropdown__body">
+											<div class="m-dropdown__content">
+												<ul class="m-nav">
+													<li class="m-nav__section m-nav__section--first m--hide">
+															<span class="m-nav__section-text">
+																دسترسی سریع
+															</span>
+													</li>
+													<li class="m-nav__item">
+														<a href="" class="m-nav__link">
+															<i class="m-nav__link-icon flaticon-share"></i>
+																<span class="m-nav__link-text">
+																	فعالیت ها
+																</span>
+														</a>
+													</li>
+													<li class="m-nav__item">
+														<a href="" class="m-nav__link">
+															<i class="m-nav__link-icon flaticon-chat-1"></i>
+																<span class="m-nav__link-text">
+																	پیام ها
+																</span>
+														</a>
+													</li>
+													<li class="m-nav__item">
+														<a href="" class="m-nav__link">
+															<i class="m-nav__link-icon flaticon-info"></i>
+																<span class="m-nav__link-text">
+																	سوالات متداول
+																</span>
+														</a>
+													</li>
+													<li class="m-nav__item">
+														<a href="" class="m-nav__link">
+															<i class="m-nav__link-icon flaticon-lifebuoy"></i>
+																<span class="m-nav__link-text">
+																	پشتیبانی
+																</span>
+														</a>
+													</li>
+													<li class="m-nav__separator m-nav__separator--fit"></li>
+													<li class="m-nav__item">
+														<a href="#" class="btn btn-outline-danger m-btn m-btn--pill m-btn--wide btn-sm">
+															ارسال
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+<!-- END: Subheader -->		        <div class="m-content">
+
+
+<div class="row">
+   <div class="col-lg-12">
+
+
+        <!--begin::Portlet-->
+        <div class="m-portlet m-portlet--tab">
+            <div class="m-portlet__head">
+                <div class="m-portlet__head-caption">
+                    <div class="m-portlet__head-title">
+                        <span class="m-portlet__head-icon m--hide">
+                            <i class="la la-gear"></i>
+                        </span>
+                        <h3 class="m-portlet__head-text">
+							رویدادهای سهام
+						</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="m-portlet__body">
+				<div id="chartdiv2" style="width: 100%; height: 400px;background-color:#3f3f4f;"></div>
+            </div>
+        </div>
+        <!--end::Portlet-->
+
+        <!--begin::Portlet-->
+        <div class="m-portlet m-portlet--tab">
+            <div class="m-portlet__head">
+                <div class="m-portlet__head-caption">
+                    <div class="m-portlet__head-title">
+                        <span class="m-portlet__head-icon m--hide">
+                            <i class="la la-gear"></i>
+                        </span>
+                        <h3 class="m-portlet__head-text">
+							خط با خطوط روند
+						</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="m-portlet__body">
+				<div id="chartdiv3" style="width: 100%; height: 450px;"></div>
+
+			</div>
+        </div>
+        <!--end::Portlet-->
+
+        <!--begin::Portlet-->
+        <div class="m-portlet m-portlet--tab">
+            <div class="m-portlet__head">
+                <div class="m-portlet__head-caption">
+                    <div class="m-portlet__head-title">
+                        <span class="m-portlet__head-icon m--hide">
+                            <i class="la la-gear"></i>
+                        </span>
+                        <h3 class="m-portlet__head-text">
+							مساحت انباشته شده
+
+						</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="m-portlet__body">
+				<div id="chartdiv4" style="width: 100%; height: 400px;"></div>
+            </div>
+        </div>
+        <!--end::Portlet-->
+
+        <!--begin::Portlet-->
+
+        <!--end::Portlet-->
+   </div>
+</div>		        </div>
+			    		    </div>
+
+
+		</div>
+				<!-- end:: Body -->
+
+
+		<!-- begin::Footer -->
+		<footer class="m-grid__item		m-footer ">
+			<div class="m-container m-container--fluid m-container--full-height m-page__container">
+				<div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
+					<div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
+				<span class="m-footer__copyright">
+					ترجمه و بومی سازی توسط :
+					    <a href="https://www.rtl-theme.com/user-profile/sokoot67/" class="m-link">SatrasWeb</a>
+				</span>
+					</div>
+					<div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">
+						<ul class="m-footer__nav m-nav m-nav--inline m--pull-right">
+							<li class="m-nav__item">
+								<a href="index.html#" class="m-nav__link">
+									<span class="m-nav__link-text">درباره ما</span>
+								</a>
+							</li>
+							<li class="m-nav__item">
+								<a href="index.html#"  class="m-nav__link">
+									<span class="m-nav__link-text">قوانین و مقرارات</span>
+								</a>
+							</li>
+							<li class="m-nav__item">
+								<a href="index.html#"  class="m-nav__link">
+									<span class="m-nav__link-text">سوالات متداول</span>
+								</a>
+							</li>
+							<li class="m-nav__item">
+								<a href="index.html#"  class="m-nav__link">
+									<span class="m-nav__link-text">ارتباط با ما</span>
+								</a>
+							</li>
+							<li class="m-nav__item m-nav__item">
+								<a href="index.html#" class="m-nav__link" data-toggle="m-tooltip" title="مرکز پشتیبانی" data-placement="left">
+									<i class="m-nav__link-icon flaticon-info m--icon-font-size-lg3"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- end::Footer -->
+
+
+	</div>
+	<!-- end:: Page -->
+
+	<!-- begin::Quick Sidebar -->
+	<div id="m_quick_sidebar" class="m-quick-sidebar m-quick-sidebar--tabbed m-quick-sidebar--skin-light">
+		<div class="m-quick-sidebar__content m--hide">
+			<span id="m_quick_sidebar_close" class="m-quick-sidebar__close"><i class="la la-close"></i></span>
+			<ul id="m_quick_sidebar_tabs" class="nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand" role="tablist">
+				<li class="nav-item m-tabs__item">
+					<a class="nav-link m-tabs__link active" data-toggle="tab" href="index.html#m_quick_sidebar_tabs_messenger" role="tab">پیام ها</a>
+				</li>
+				<li class="nav-item m-tabs__item">
+					<a class="nav-link m-tabs__link" 		data-toggle="tab" href="index.html#m_quick_sidebar_tabs_settings" role="tab">تنظیمات</a>
+				</li>
+				<li class="nav-item m-tabs__item">
+					<a class="nav-link m-tabs__link" data-toggle="tab" href="index.html#m_quick_sidebar_tabs_logs" role="tab">لاگ ها</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="m_quick_sidebar_tabs_messenger" role="tabpanel">
+					<div class="m-messenger m-messenger--message-arrow m-messenger--skin-light">
+						<div class="m-messenger__messages m-scrollable">
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--in">
+									<div class="m-messenger__message-pic">
+										<img src="assets/app/media/img/users/user3.jpg" alt=""/>
+									</div>
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-username">
+												مریم حسینی
+											</div>
+											<div class="m-messenger__message-text">
+												سلام وقت بخیر، کی می تونم حضوری یک وقت ملاقات بگیرم؟
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--out">
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-text">
+												سلام خانم مریم حسینی ، ساعت 4 عصر امروز
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--in">
+									<div class="m-messenger__message-pic">
+										<img src="assets/app/media/img/users/user3.jpg" alt=""/>
+									</div>
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-username">
+												مریم حسینی
+											</div>
+											<div class="m-messenger__message-text">
+												شما یک تیم توسعه دهنده نیاز دارید؟
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--out">
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-text">
+												بله ، از شما دعوت میکنیم به همراه تیمتون تشریف بیارید
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__datetime">2:30PM</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--in">
+									<div class="m-messenger__message-pic">
+										<img src="assets/app/media/img/users/user3.jpg"  alt=""/>
+									</div>
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-username">
+												مریم حسینی
+											</div>
+											<div class="m-messenger__message-text">
+												ممنونم از شما										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--out">
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-text">
+												خواهش می کنم
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--out">
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-text">
+												لطفا نمونه کارهای خودتون هم بیارید
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__datetime">3:15PM</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--in">
+									<div class="m-messenger__message-no-pic m--bg-fill-danger">
+										<span>M</span>
+									</div>
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-username">
+												مریم حسینی
+
+											</div>
+											<div class="m-messenger__message-text">
+												حتما
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--out">
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-text">
+												ممنون ، می بینمتون
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="m-messenger__wrapper">
+								<div class="m-messenger__message m-messenger__message--in">
+									<div class="m-messenger__message-pic">
+										<img src="assets/app/media/img/users/user3.jpg"  alt=""/>
+									</div>
+									<div class="m-messenger__message-body">
+										<div class="m-messenger__message-arrow"></div>
+										<div class="m-messenger__message-content">
+											<div class="m-messenger__message-username">
+												مریم حسینی
+
+											</div>
+											<div class="m-messenger__message-text">
+												خدانگهدار
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="m-messenger__seperator"></div>
+
+						<div class="m-messenger__form">
+							<div class="m-messenger__form-controls">
+								<input type="text" name="" placeholder="اینجا تایپ کنید ....." class="m-messenger__form-input">
+							</div>
+							<div class="m-messenger__form-tools">
+								<a href="index.html" class="m-messenger__form-attachment">
+									<i class="la la-paperclip"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<!-- end::Quick Sidebar -->
+	<!-- begin::Scroll Top -->
+	<div id="m_scroll_top" class="m-scroll-top">
+		<i class="la la-arrow-up"></i>
+	</div>
+	<!-- end::Scroll Top -->		    <!-- begin::Quick Nav -->
+	<ul class="m-nav-sticky" style="margin-top: 30px;">
+		<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="صفحه ساز" data-placement="left">
+			<a href="crud/page-builder.html"><i class="la la-cog"></i></a>
+		</li>
+		<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="خرید قالب" data-placement="left">
+			<a href="#" target="_blank"><i class="la la-cart-arrow-down"></i></a>
+		</li>
+		<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="مستندات" data-placement="left">
+			<a href="#" target="_blank"><i class="la la-code-fork"></i></a>
+		</li>
+		<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="پشتیبانی" data-placement="left">
+			<a href="#" target="_blank"><i class="la la-life-ring"></i></a>
+		</li>
+	</ul>
+<!-- begin::Quick Nav -->
+        <!--begin::Global Theme Bundle -->
+                    <script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
+                    <script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
+                <!--end::Global Theme Bundle -->
+
+
+	<script src="assets/demo/default/custom/components/charts/amcharts/amcharts.js" type="text/javascript"></script>
+	<script src="assets/demo/default/custom/components/charts/amcharts/stock-charts.js" type="text/javascript"></script>
+	<script src="assets/demo/default/custom/components/charts/amcharts/serial.js" type="text/javascript"></script>
+
+	<!--end::Page Vendors -->
+
+	<style type="text/css">
+
+		.amcharts-graph-g1 .amcharts-graph-stroke {
+			stroke-dasharray: 3px 3px;
+			stroke-linejoin: round;
+			stroke-linecap: round;
+			-webkit-animation: am-moving-dashes 1s linear infinite;
+			animation: am-moving-dashes 1s linear infinite;
+		}
+
+		@-webkit-keyframes am-moving-dashes {
+			100% {
+				stroke-dashoffset: -30px;
+			}
+		}
+		@keyframes am-moving-dashes {
+			100% {
+				stroke-dashoffset: -30px;
+			}
+		}
+
+
+		.lastBullet {
+			-webkit-animation: am-pulsating 1s ease-out infinite;
+			animation: am-pulsating 1s ease-out infinite;
+		}
+		@-webkit-keyframes am-pulsating {
+			0% {
+				stroke-opacity: 1;
+				stroke-width: 0px;
+			}
+			100% {
+				stroke-opacity: 0;
+				stroke-width: 50px;
+			}
+		}
+		@keyframes am-pulsating {
+			0% {
+				stroke-opacity: 1;
+				stroke-width: 0px;
+			}
+			100% {
+				stroke-opacity: 0;
+				stroke-width: 50px;
+			}
+		}
+
+		.amcharts-graph-column-front {
+			-webkit-transition: all .3s .3s ease-out;
+			transition: all .3s .3s ease-out;
+		}
+		.amcharts-graph-column-front:hover {
+			fill: #496375;
+			stroke: #496375;
+			-webkit-transition: all .3s ease-out;
+			transition: all .3s ease-out;
+		}
+
+
+		.amcharts-graph-g2 {
+			stroke-linejoin: round;
+			stroke-linecap: round;
+			stroke-dasharray: 500%;
+			stroke-dasharray: 0 \0/;    /* fixes IE prob */
+			stroke-dashoffset: 0 \0/;   /* fixes IE prob */
+			-webkit-animation: am-draw 40s;
+			animation: am-draw 40s;
+		}
+		@-webkit-keyframes am-draw {
+			0% {
+				stroke-dashoffset: 500%;
+			}
+			100% {
+				stroke-dashoffset: 0px;
+			}
+		}
+		@keyframes am-draw {
+			0% {
+				stroke-dashoffset: 500%;
+			}
+			100% {
+				stroke-dashoffset: 0px;
+			}
+		}
+
+
+
+
+	</style>
+
+
+	<script>
+        // note, we have townName field with a name specified for each datapoint and townName2 with only some of the names specified.
+        // we use townName2 to display town names next to the bullet. And as these names would overlap if displayed next to each bullet,
+        // we created this townName2 field and set only some of the names for this purpse.
+        var chartData = [
+            {
+                "date": "2012-01-01",
+                "distance": 227,
+                "townName": "New York",
+                "townName2": "New York",
+                "townSize": 25,
+                "latitude": 40.71,
+                "duration": 408
+            },
+            {
+                "date": "2012-01-02",
+                "distance": 371,
+                "townName": "Washington",
+                "townSize": 14,
+                "latitude": 38.89,
+                "duration": 482
+            },
+            {
+                "date": "2012-01-03",
+                "distance": 433,
+                "townName": "Wilmington",
+                "townSize": 6,
+                "latitude": 34.22,
+                "duration": 562
+            },
+            {
+                "date": "2012-01-04",
+                "distance": 345,
+                "townName": "Jacksonville",
+                "townSize": 7,
+                "latitude": 30.35,
+                "duration": 379
+            },
+            {
+                "date": "2012-01-05",
+                "distance": 480,
+                "townName": "Miami",
+                "townName2": "Miami",
+                "townSize": 10,
+                "latitude": 25.83,
+                "duration": 501
+            },
+            {
+                "date": "2012-01-06",
+                "distance": 386,
+                "townName": "Tallahassee",
+                "townSize": 7,
+                "latitude": 30.46,
+                "duration": 443
+            },
+            {
+                "date": "2012-01-07",
+                "distance": 348,
+                "townName": "New Orleans",
+                "townSize": 10,
+                "latitude": 29.94,
+                "duration": 405
+            },
+            {
+                "date": "2012-01-08",
+                "distance": 238,
+                "townName": "Houston",
+                "townName2": "Houston",
+                "townSize": 16,
+                "latitude": 29.76,
+                "duration": 309
+            },
+            {
+                "date": "2012-01-09",
+                "distance": 218,
+                "townName": "Dalas",
+                "townSize": 17,
+                "latitude": 32.8,
+                "duration": 287
+            },
+            {
+                "date": "2012-01-10",
+                "distance": 349,
+                "townName": "Oklahoma City",
+                "townSize": 11,
+                "latitude": 35.49,
+                "duration": 485
+            },
+            {
+                "date": "2012-01-11",
+                "distance": 603,
+                "townName": "Kansas City",
+                "townSize": 10,
+                "latitude": 39.1,
+                "duration": 890
+            },
+            {
+                "date": "2012-01-12",
+                "distance": 534,
+                "townName": "Denver",
+                "townName2": "Denver",
+                "townSize": 18,
+                "latitude": 39.74,
+                "duration": 810
+            },
+            {
+                "date": "2012-01-13",
+                "townName": "Salt Lake City",
+                "townSize": 12,
+                "distance": 425,
+                "duration": 670,
+                "latitude": 40.75,
+                "alpha":0.4
+            },
+            {
+                "date": "2012-01-14",
+                "latitude": 36.1,
+                "duration": 470,
+                "townName": "Las Vegas",
+                "townName2": "Las Vegas",
+                "bulletClass": "lastBullet"
+            },
+            {
+                "date": "2012-01-15"
+            },
+            {
+                "date": "2012-01-16"
+            },
+            {
+                "date": "2012-01-17"
+            },
+            {
+                "date": "2012-01-18"
+            },
+            {
+                "date": "2012-01-19"
+            }
+        ];
+        var chart;
+
+        AmCharts.ready(function () {
+            // SERIAL CHART
+            chart = new AmCharts.AmSerialChart();
+            chart.addClassNames = true;
+            chart.dataProvider = chartData;
+            chart.categoryField = "date";
+            chart.dataDateFormat = "YYYY-MM-DD";
+            chart.startDuration = 1;
+            chart.color = "#FFFFFF";
+            chart.marginLeft = 0;
+
+            // AXES
+            // category
+            var categoryAxis = chart.categoryAxis;
+            categoryAxis.parseDates = true; // as our data is date-based, we set parseDates to true
+            categoryAxis.minPeriod = "DD"; // our data is daily, so we set minPeriod to DD
+            categoryAxis.autoGridCount = false;
+            categoryAxis.gridCount = 50;
+            categoryAxis.gridAlpha = 0.1;
+            categoryAxis.gridColor = "#FFFFFF";
+            categoryAxis.axisColor = "#555555";
+            // we want custom date formatting, so we change it in next line
+            categoryAxis.dateFormats = [{
+                period: 'DD',
+                format: 'DD'
+            }, {
+                period: 'WW',
+                format: 'MMM DD'
+            }, {
+                period: 'MM',
+                format: 'MMM'
+            }, {
+                period: 'YYYY',
+                format: 'YYYY'
+            }];
+
+            // as we have data of different units, we create three different value axes
+            // Distance value axis
+            var distanceAxis = new AmCharts.ValueAxis();
+            distanceAxis.title = "distance";
+            distanceAxis.gridAlpha = 0;
+            distanceAxis.axisAlpha = 0;
+            chart.addValueAxis(distanceAxis);
+
+            // latitude value axis
+            var latitudeAxis = new AmCharts.ValueAxis();
+            latitudeAxis.gridAlpha = 0;
+            latitudeAxis.axisAlpha = 0;
+            latitudeAxis.title = "duration and latitude";
+            latitudeAxis.offset = 83;
+            latitudeAxis.titleOffset = 10;
+            latitudeAxis.position = "right";
+            chart.addValueAxis(latitudeAxis);
+
+            // duration value axis
+            var durationAxis = new AmCharts.ValueAxis();
+            // the following line makes this value axis to convert values to duration
+            // it tells the axis what duration unit it should use. mm - minute, hh - hour...
+            durationAxis.duration = "mm";
+            durationAxis.durationUnits = {
+                DD: "d. ",
+                hh: "h ",
+                mm: "min",
+                ss: ""
+            };
+            durationAxis.gridAlpha = 0;
+            durationAxis.axisAlpha = 0;
+            durationAxis.inside = false;
+            durationAxis.position = "right";
+            chart.addValueAxis(durationAxis);
+
+            // GRAPHS
+            // distance graph
+            var distanceGraph = new AmCharts.AmGraph();
+            distanceGraph.valueField = "distance";
+            distanceGraph.title = "distance";
+            distanceGraph.type = "column";
+            distanceGraph.fillAlphas = 0.9;
+            distanceGraph.valueAxis = distanceAxis; // indicate which axis should be used
+            distanceGraph.balloonText = "[[value]] miles";
+            distanceGraph.legendValueText = "[[value]] mi";
+            distanceGraph.legendPeriodValueText = "total: [[value.sum]] mi";
+            distanceGraph.lineColor = "#263138";
+            distanceGraph.alphaField = "alpha";
+            chart.addGraph(distanceGraph);
+
+            // latitude graph
+            var latitudeGraph = new AmCharts.AmGraph();
+            latitudeGraph.valueField = "latitude";
+            latitudeGraph.id = "g1";
+            latitudeGraph.classNameField = "bulletClass";
+            latitudeGraph.title = "latitude/city";
+            latitudeGraph.type = "line";
+            latitudeGraph.valueAxis = latitudeAxis; // indicate which axis should be used
+            latitudeGraph.lineColor = "#786c56";
+            latitudeGraph.lineThickness = 1;
+            latitudeGraph.legendValueText = "[[value]]/[[description]]";
+            latitudeGraph.descriptionField = "townName";
+            latitudeGraph.bullet = "round";
+            latitudeGraph.bulletSizeField = "townSize"; // indicate which field should be used for bullet size
+            latitudeGraph.bulletBorderColor = "#786c56";
+            latitudeGraph.bulletBorderAlpha = 1;
+            latitudeGraph.bulletBorderThickness = 2;
+            latitudeGraph.bulletColor = "#000000";
+            latitudeGraph.labelText = "[[townName2]]"; // not all data points has townName2 specified, that's why labels are displayed only near some of the bullets.
+            latitudeGraph.labelPosition = "right";
+            latitudeGraph.balloonText = "latitude:[[value]]";
+            latitudeGraph.showBalloon = true;
+            latitudeGraph.animationPlayed = true;
+            chart.addGraph(latitudeGraph);
+
+            // duration graph
+            var durationGraph = new AmCharts.AmGraph();
+            durationGraph.id = "g2";
+            durationGraph.title = "duration";
+            durationGraph.valueField = "duration";
+            durationGraph.type = "line";
+            durationGraph.valueAxis = durationAxis; // indicate which axis should be used
+            durationGraph.lineColor = "#ff5755";
+            durationGraph.balloonText = "[[value]]";
+            durationGraph.lineThickness = 1;
+            durationGraph.legendValueText = "[[value]]";
+            durationGraph.bullet = "square";
+            durationGraph.bulletBorderColor = "#ff5755";
+            durationGraph.bulletBorderThickness = 1;
+            durationGraph.bulletBorderAlpha = 1;
+            durationGraph.dashLengthField = "dashLength";
+            durationGraph.animationPlayed = true;
+            chart.addGraph(durationGraph);
+
+            // CURSOR
+            var chartCursor = new AmCharts.ChartCursor();
+            chartCursor.zoomable = false;
+            chartCursor.categoryBalloonDateFormat = undefined;
+            chartCursor.cursorAlpha = 0;
+            chartCursor.valueBalloonsEnabled = false;
+            chartCursor.valueLineBalloonEnabled = true;
+            chartCursor.valueLineEnabled = true;
+            chartCursor.valueLineAlpha = 0.5;
+            chart.addChartCursor(chartCursor);
+
+            // LEGEND
+            var legend = new AmCharts.AmLegend();
+            legend.bulletType = "round";
+            legend.equalWidths = false;
+            legend.valueWidth = 120;
+            legend.useGraphSettings = true;
+            legend.color = "#FFFFFF";
+            chart.addLegend(legend);
+
+            // WRITE
+            chart.write("chartdiv");
+        });
+	</script>
+	<script>
+        var chart = AmCharts.makeChart("chartdiv2", {
+            "type": "serial",
+            "theme": "dark",
+            "dataDateFormat": "YYYY-MM-DD",
+            "dataProvider": [{
+                "date": "2013-11-30",
+                "value": 104
+            }, {
+                "date": "2013-12-01",
+                "value": 108
+            }, {
+                "date": "2013-12-02",
+                "value": 103
+            }, {
+                "date": "2013-12-03",
+                "value": 105
+            }, {
+                "date": "2013-12-04",
+                "value": 136
+            }, {
+                "date": "2013-12-05",
+                "value": 138
+            }, {
+                "date": "2013-12-06",
+                "value": 113
+            }, {
+                "date": "2013-12-07",
+                "value": 131
+            }, {
+                "date": "2013-12-08",
+                "value": 114
+            }, {
+                "date": "2013-12-09",
+                "value": 124
+            }],
+            "valueAxes": [{
+                "maximum": 140,
+                "minimum": 100,
+                "axisAlpha": 0,
+                "guides": [{
+                    "fillAlpha": 0.1,
+                    "fillColor": "#CC0000",
+                    "lineAlpha": 0,
+                    "toValue": 120,
+                    "value": 0
+                }, {
+                    "fillAlpha": 0.1,
+                    "fillColor": "#0000cc",
+                    "lineAlpha": 0,
+                    "toValue": 200,
+                    "value": 120
+                }]
+            }],
+            "graphs": [{
+                "bullet": "round",
+                "dashLength": 4,
+                "valueField": "value"
+            }],
+            "chartCursor": {
+                "cursorAlpha": 0,
+                "zoomable":false,
+                "valueZoomable":true
+            },
+            "categoryField": "date",
+            "categoryAxis": {
+                "parseDates": true
+            },
+            "valueScrollbar":{
+
+            }
+        });
+	</script>
+	<script>
+
+        AmCharts.makeChart("chartdiv3", {
+
+            type: "serial",
+            dataProvider: [{
+                "date": "2012-01-01",
+                "value": 8
+            }, {
+                "date": "2012-01-02",
+                "value": 10
+            }, {
+                "date": "2012-01-03",
+                "value": 12
+            }, {
+                "date": "2012-01-04",
+                "value": 14
+            }, {
+                "date": "2012-01-05",
+                "value": 11
+            }, {
+                "date": "2012-01-06",
+                "value": 6
+            }, {
+                "date": "2012-01-07",
+                "value": 7
+            }, {
+                "date": "2012-01-08",
+                "value": 9
+            }, {
+                "date": "2012-01-09",
+                "value": 13
+            }, {
+                "date": "2012-01-10",
+                "value": 15
+            }, {
+                "date": "2012-01-11",
+                "value": 19
+            }, {
+                "date": "2012-01-12",
+                "value": 21
+            }, {
+                "date": "2012-01-13",
+                "value": 22
+            }, {
+                "date": "2012-01-14",
+                "value": 20
+            }, {
+                "date": "2012-01-15",
+                "value": 18
+            }, {
+                "date": "2012-01-16",
+                "value": 14
+            }, {
+                "date": "2012-01-17",
+                "value": 16
+            }, {
+                "date": "2012-01-18",
+                "value": 18
+            }, {
+                "date": "2012-01-19",
+                "value": 17
+            }, {
+                "date": "2012-01-20",
+                "value": 15
+            }, {
+                "date": "2012-01-21",
+                "value": 12
+            }, {
+                "date": "2012-01-22",
+                "value": 10
+            }, {
+                "date": "2012-01-23",
+                "value": 8
+            }],
+
+            dataDateFormat: "YYYY-MM-DD",
+            categoryField: "date",
+
+
+            categoryAxis: {
+                parseDates: true,
+                minPeriod: "DD",
+                gridAlpha: 0.1,
+                minorGridAlpha: 0.1,
+                axisAlpha: 0,
+                minorGridEnabled: true,
+                inside: true
+            },
+
+            valueAxes: [{
+
+                tickLength: 0,
+                axisAlpha: 0,
+                showFirstLabel: false,
+                showLastLabel: false,
+
+                guides: [{
+                    value: 10,
+                    toValue: 20,
+                    fillColor: "#00CC00",
+                    inside: true,
+                    fillAlpha: 0.2,
+                    lineAlpha: 0
+                }]
+
+            }],
+
+
+            graphs: [{
+                id:"g1",
+                lineColor: "#00CC00",
+                valueField: "value",
+                dashLength: 3,
+                bullet: "round",
+                balloonText: "<b><span style='font-size:14px;'>[[value]]</span></b>",
+                balloon:{
+                    drop:true
+                }
+            }],
+
+            chartCursor: {
+                limitToGraph:"g1",
+                cursorColor:"#00CC00"
+            },
+            chartScrollbar: {
+
+            },
+
+            mouseWheelZoomEnabled: true,
+
+            trendLines: [{
+                initialDate: new Date(2012, 0, 2, 12),
+                finalDate: new Date(2012, 0, 11, 12),
+                initialValue: 10,
+                finalValue: 19,
+                lineColor: "#CC0000"
+            }, {
+                initialDate: new Date(2012, 0, 17, 12),
+                finalDate: new Date(2012, 0, 22, 12),
+                initialValue: 16,
+                finalValue: 10,
+                lineColor: "#CC0000"
+            }]
+        });
+	</script>
+	<script>
+
+
+        var chartData = [];
+        generateChartData();
+
+        var chart = AmCharts.makeChart("chartdiv4", {
+            type: "serial",
+            dataProvider: chartData,
+            categoryField: "date",
+            categoryAxis: {
+                parseDates: true,
+                gridAlpha: 0.15,
+                minorGridEnabled: true,
+                axisColor: "#DADADA"
+            },
+            valueAxes: [{
+                axisAlpha: 0.2,
+                id: "v1"
+            }],
+            graphs: [{
+                title: "red line",
+                id: "g1",
+                valueAxis: "v1",
+                valueField: "visits",
+                bullet: "round",
+                bulletBorderColor: "#FFFFFF",
+                bulletBorderAlpha: 1,
+                lineThickness: 2,
+                lineColor: "#b5030d",
+                negativeLineColor: "#0352b5",
+                balloonText: "[[category]]<br><b><span style='font-size:14px;'>value: [[value]]</span></b>"
+            }],
+            chartCursor: {
+                fullWidth:true,
+                cursorAlpha:0.1
+            },
+            chartScrollbar: {
+                scrollbarHeight: 40,
+                color: "#FFFFFF",
+                autoGridCount: true,
+                graph: "g1"
+            },
+
+            mouseWheelZoomEnabled:true
+        });
+
+        chart.addListener("dataUpdated", zoomChart);
+
+
+        // generate some random data, quite different range
+        function generateChartData() {
+            var firstDate = new Date();
+            firstDate.setDate(firstDate.getDate() - 500);
+
+            for (var i = 0; i < 500; i++) {
+                // we create date objects here. In your data, you can have date strings
+                // and then set format of your dates using chart.dataDateFormat property,
+                // however when possible, use date objects, as this will speed up chart rendering.
+                var newDate = new Date(firstDate);
+                newDate.setDate(newDate.getDate() + i);
+
+                var visits = Math.round(Math.random() * 40) - 20;
+
+                chartData.push({
+                    date: newDate,
+                    visits: visits
+                });
+            }
+        }
+
+        // this method is called when chart is first inited as we listen for "dataUpdated" event
+        function zoomChart() {
+            // different zoom methods can be used - zoomToIndexes, zoomToDates, zoomToCategoryValues
+            chart.zoomToIndexes(chartData.length - 40, chartData.length - 1);
+        }
+
+        // changes cursor mode from pan to select
+        function setPanSelect() {
+            var chartCursor = chart.chartCursor;
+
+            if (document.getElementById("rb1").checked) {
+                chartCursor.pan = false;
+                chartCursor.zoomable = true;
+
+            } else {
+                chartCursor.pan = true;
+            }
+            chart.validateNow();
+        }
+
+
+	</script>
+	</body>
+    <!-- end::Body -->
+</html>
